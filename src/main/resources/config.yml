@@ -1,0 +1,12 @@
+
+config-version: 1.0.0
+
+# Cooldown in seconds to remove cobwebs.
+cooldown: 15
+
+# Remove cobwebs in the regions.
+# Regions define remove and place cobwebs blocks.
+regions:
+  - deathban
+  - spawn
+  - mine1

@@ -1,0 +1,13 @@
+name: CobwebRemoveBoxPvP
+version: {project.version}
+main: com.github.happyuky7.cobwebRemoveBoxPvP.CobwebRemoveBoxPvP
+api-version: '1.16'
+authors: [ Happyuky7 ]
+description: Cobweb Remove BoxPvP
+website: https://github.com/Happyuky7
+softdepend: [ WorldGuard ]
+commands:
+  cobwebremoveboxpvp:
+    description: Cobweb Remove BoxPvP Command
+    usage: /<command> [reload]
+    aliases: [ cobwebremoveboxpvp, crbp ]
