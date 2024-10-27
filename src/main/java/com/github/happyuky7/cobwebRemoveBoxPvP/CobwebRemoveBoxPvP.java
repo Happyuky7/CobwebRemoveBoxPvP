@@ -18,8 +18,6 @@ public final class CobwebRemoveBoxPvP extends JavaPlugin {
 
     public FileManager config;
 
-    public int cooldown = CobwebRemoveBoxPvP.getInstance().getConfig().getInt("cooldown");
-
     @Override
     public void onEnable() {
         // Plugin startup logic
@@ -27,6 +25,8 @@ public final class CobwebRemoveBoxPvP extends JavaPlugin {
         instance = this;
 
         config = new FileManager(this, "config");
+
+        int cooldown = getConfig().getInt("cooldown");
 
         getServer().getPluginManager().registerEvents(new EventListeners(), this);
         getCommand("cobwebremoveboxpvp").setExecutor(new CobwebRemoveBoxPvPCMD());
@@ -49,7 +49,7 @@ public final class CobwebRemoveBoxPvP extends JavaPlugin {
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&a CobwebRemoveBoxPvP &f- &aEnabled"));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor(" "));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&aAuthor: &fHappyuky7"));
-        Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&aVersion: &f1.0.0"));
+        Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&aVersion: &f1.0.1"));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&aGitHub: &fhttps://github.com/happyuky7/CobwebRemoveBoxPvP"));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor(" "));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&cInfo: &fCooldwon update restart required."));
@@ -67,7 +67,7 @@ public final class CobwebRemoveBoxPvP extends JavaPlugin {
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&a CobwebRemoveBoxPvP &f- &cDisabled"));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor(" "));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&aAuthor: &fHappyuky7"));
-        Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&aVersion: &f1.0.0"));
+        Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&aVersion: &f1.0.1"));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&aGitHub: &fhttps://github.com/happyuky7/CobwebRemoveBoxPvP"));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor(" "));
 

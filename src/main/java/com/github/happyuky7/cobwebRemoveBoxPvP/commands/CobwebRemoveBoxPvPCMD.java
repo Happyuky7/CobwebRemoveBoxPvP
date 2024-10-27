@@ -21,7 +21,7 @@ public class CobwebRemoveBoxPvPCMD implements CommandExecutor, TabCompleter {
             sender.sendMessage(MessageColors.getMsgColor("&a CobwebRemoveBoxPvP"));
             sender.sendMessage(MessageColors.getMsgColor(" "));
             sender.sendMessage(MessageColors.getMsgColor("&aAuthor: &fHappyuky7"));
-            sender.sendMessage(MessageColors.getMsgColor("&aVersion: &f1.0.0"));
+            sender.sendMessage(MessageColors.getMsgColor("&aVersion: &f1.0.1"));
             sender.sendMessage(MessageColors.getMsgColor("&aGitHub: &fhttps://github.com/happyuky7/CobwebRemoveBoxPvP"));
             sender.sendMessage(MessageColors.getMsgColor(" "));
             if (sender.hasPermission("cobwebremoveboxpvp.reload")) {
