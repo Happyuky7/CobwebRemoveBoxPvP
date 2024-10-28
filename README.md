@@ -11,7 +11,7 @@ CobwebRemoveBoxPvP is a plugin that allows you to remove cobwebs from the box pv
 
 ---
 
-[![Watch the video](https://raw.githubusercontent.com/Happyuky7/CobwebRemoveBoxPvP/)](https://raw.githubusercontent.com/Happyuky7/CobwebRemoveBoxPvP/raw/refs/heads/master/CobwebRemoveBoxPvP-Demo1.mp4)
+[![video](https://raw.githubusercontent.com/Happyuky7/CobwebRemoveBoxPvP/)](https://raw.githubusercontent.com/Happyuky7/CobwebRemoveBoxPvP/refs/heads/master/CobwebRemoveBoxPvP-Demo1.mp4)
 
 [![Video](https://i.imgur.com/Ti2Q1w3.mp4)](https://i.imgur.com/Ti2Q1w3.mp4)
 
