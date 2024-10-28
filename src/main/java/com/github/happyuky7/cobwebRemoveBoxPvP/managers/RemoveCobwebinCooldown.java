@@ -27,19 +27,19 @@ public class RemoveCobwebinCooldown implements Listener {
     }
 
     public static void removeCobweb() {
-        System.out.println("Removing cobweb");
+        //System.out.println("Removing cobweb");
         for (World world : Bukkit.getServer().getWorlds()) {
-            System.out.println("Checking world: " + world.getName());
+            //System.out.println("Checking world: " + world.getName());
             if (cobwebBlocks.containsKey(world)) {
                 List<Block> blocks = cobwebBlocks.get(world);
                 for (Block block : blocks) {
                     block.setType(Material.AIR);
-                    System.out.println("Cobweb removed at " + block.getLocation());
+                    //System.out.println("Cobweb removed at " + block.getLocation());
                 }
                 cobwebBlocks.remove(world, blocks);
-            } else {
+            }/* else {
                 System.out.println("No cobweb found in world: " + world.getName());
-            }
+            }*/
         }
     }
 

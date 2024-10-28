@@ -6,10 +6,10 @@
 
     <groupId>com.github.happyuky7</groupId>
     <artifactId>cobwebremoveboxpvp</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <packaging>jar</packaging>
 
-    <name>cobwebremoveboxpvp</name>
+    <name>CobwebRemoveBoxPvP</name>
 
     <repositories>
         <repository>

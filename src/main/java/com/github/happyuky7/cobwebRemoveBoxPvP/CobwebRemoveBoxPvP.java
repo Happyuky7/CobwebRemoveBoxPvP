@@ -50,7 +50,7 @@ public final class CobwebRemoveBoxPvP extends JavaPlugin {
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&a CobwebRemoveBoxPvP &f- &aEnabled"));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor(" "));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&aAuthor: &fHappyuky7"));
-        Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&aVersion: &f1.0.2"));
+        Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&aVersion: &f1.0.3"));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&aGitHub: &fhttps://github.com/happyuky7/CobwebRemoveBoxPvP"));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor(" "));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&cInfo: &fCooldwon update restart required."));
@@ -68,7 +68,7 @@ public final class CobwebRemoveBoxPvP extends JavaPlugin {
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&a CobwebRemoveBoxPvP &f- &cDisabled"));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor(" "));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&aAuthor: &fHappyuky7"));
-        Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&aVersion: &f1.0.2"));
+        Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&aVersion: &f1.0.3"));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&aGitHub: &fhttps://github.com/happyuky7/CobwebRemoveBoxPvP"));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor(" "));
 
