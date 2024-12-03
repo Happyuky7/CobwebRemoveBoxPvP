@@ -119,7 +119,7 @@ This project is licensed under the Custom License - see the [LICENSE](https://gi
 
 Code by [Happyuky7](https://github.com/Happyuky7/)
 
-Happyuky7 © 2017-20254
+Happyuky7 © 2017-2025
 
 ---
 
